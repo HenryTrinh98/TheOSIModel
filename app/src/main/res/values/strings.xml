@@ -1,0 +1,67 @@
+<resources>
+
+
+    <string name="app_name">The OSI Model</string>
+
+    <!-- Shared -->
+    <string name="Title">Introduction</string>
+
+
+    <!-- Application Layer Lesson-->
+    <string name="AppIntro">The Application layer is the top most layer in OSI and TCP/IP layered model. This layer exists in both layered models because of its significance, of interacting with user and user applications. This layer is for applications which are involved  in communication system.</string>
+    <string name="AppIntro2">A user may or may not directly interact with the applications. The application layer is where the actual communication is initiated and reflects. Since this layer is on top of the layer stack, it does not serve any other layers. It takes the help of Transport and all layers below to communicate or transfer its data to the remote host.</string>
+    <string name="AppTitle">Client Server Model</string>
+    <string name="AppBody">
+        <![CDATA[
+    <p>Two remote application processes can communicate mainly in two different fashions: </p><p> Peer-to-peer: Both remote processes are executing at same level and they exchange data using some shared resource. </p>
+    <p> Client-Server: One remote process acts as a client and requests some resource from another application process acting as a server </p>]]>
+    </string>
+
+
+    <!-- Physical Layer Lesson Page-->
+    <string name="PhyIntro">Physical layer in the OSI model plays the role of interacting with actual hardware and signaling mechanisms. Physical layer is the only layer of the OSI network model which actually deals with physical connectivity of different stations. This layer includes the hardware equipment, cabling, frequencies, pulses used to represent binary signals and more!
+       </string>
+
+    <string name="PhyBody">
+    <![CDATA[
+        <p>When signals travel through a medium they tend to deteriorate. There are many reasons as given:</p>
+        <p><b>Attenuation</b> For receiver to interpret the data accurately, the signal must be sufficiently strong. When the signal passes through the medium, it tends to get weaker. As it travels through distance, it loses strength.</p>
+        <p><b>Dispersion</b> As singal travels through the media, it tends to spread and overlap. The amount of dispersion depends upon the frequency.</p>
+        <p><b>Intermoddulation</b> When multiple frequencies share a medium, their interference can cause noise in the medium. Intermodulation noise occurs if two different frequencies are sharing a medium and one of them has excessive strength or the component itself is not functioning properly, then the resultant frequency may not be delivered as expected.</p>
+
+]]>
+
+</string>
+    <string name ="PStringTitle">Transmission Impairement</string>
+
+
+    <string name="PhyTitle2">Network Switching</string>
+    <string name="PhyBody2">
+    <![CDATA[
+        <p><b>Connectionless: </b>The data is forwarded on behalf of forwarding tables. No previous handshaking is required and acknowledgements are optional.</p>
+        <p><b>Connection Oriented: </b>Before switching data is forwarded, there is a pre-established circuit along the path between both endpoints. Data is then forwareded. After the transfer, confirmation is usually received and the connection is kept for future use. Confirmation is usually sent to close the connection, but usually networks have timeouts to close connections.</p>
+       ]]>
+
+</string>
+
+    <string name="PhyTitle3">Multiplexing</string>
+    <string name="PhyBody3">
+    <![CDATA[
+        <p>Multiplexing is a technique to mix and send multiple data streams over a single medium. This technique requires system hardware called multiplexer (MUX) for multiplexing the streams and sending them on a medium, and de-multiplexer (DMUX) which takes information from the medium and distributes to different destinations.</p>
+    ]]>
+
+</string>
+
+    <!-- Quiz Page-->
+    <string name="str_next">CONTINUE</string>
+    <string name="chck">Check</string>
+
+    <!-- Profile Page -->
+    <string name="last5">Last 5 Attempts</string>
+    <string name="welcome">Welcome Stranger!</string>
+    <string name="lastq">  Last Quiz</string>
+    <string name="bigd">  Last Played</string>
+    <string name="mostq">  Most Played</string>
+    <string name="profiledesc">See some quick stats on your latest scores and results!</string>
+
+</resources>
